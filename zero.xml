@@ -6,7 +6,7 @@
            fetch="https://gitlab.com" />
 	
     <!--Device Trees-->
-    <project path="device/samsung/universal7420-common" name="Exynos7420/android_device_samsung_universal7420-common" remote="github" revision="nx-9.0" />
+    <project path="device/samsung/zero-common" name="Exynos7420/android_device_samsung_zero-common" remote="github" revision="nx-9.0" />
     <project path="device/samsung/zerofltexx" name="Exynos7420/android_device_samsung_zerofltexx" remote="github" revision="nx-9.0" />
     <project path="device/samsung/zeroltexx" name="Exynos7420/android_device_samsung_zeroltexx" remote="github" revision="nx-9.0" />
     <project path="device/samsung/zerofltecan" name="Exynos7420/android_device_samsung_zerofltecan" remote="github" revision="nx-9.0" />
@@ -15,10 +15,10 @@
 
     <!--Kernel-->
     <project path="kernel/samsung/exynos7420" name="Exynos7420/android_kernel_samsung_exynos7420" remote="github" revision="nx-9.0" />
-    <project path="prebuilts/linaro/linux-x86/aarch64/" name="Exynos7420/android_prebuilts_linaro" groups="pdk,linux,x86_64" revision="6.1.1" remote="gitlabs" />
+    <project path="prebuilts/linaro/linux-x86/aarch64/" name="enesuzun2002/android_prebuilts_linaro" groups="pdk,linux,x86_64" revision="6.1.1" remote="gitlabs" />
 
     <!-- Vendor folders -->
-    <project path="vendor/samsung/universal7420-common" name="Exynos7420/proprietary_vendor_samsung_universal7420-common" remote="github" revision="nx-9.0" />
+    <project path="vendor/samsung/zero-common" name="Exynos7420/proprietary_vendor_samsung_zero-common" remote="github" revision="nx-9.0" />
 	
     <!-- Hardware -->
     <project path="hardware/samsung" name="Exynos7420/android_hardware_samsung" remote="github" revision="nx-9.0" />
