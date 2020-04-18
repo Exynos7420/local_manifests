@@ -22,9 +22,9 @@
 	
     <!-- Hardware -->
     <project path="hardware/samsung" name="Exynos7420/android_hardware_samsung" remote="github" revision="nx-9.0" />
-    <project path="hardware/samsung_slsi-cm/exynos" name="Exynos7420/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="nx-9.0" />
-    <project path="hardware/samsung_slsi-cm/exynos5" name="Exynos7420/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="nx-9.0" />
-    <project path="hardware/samsung_slsi-cm/exynos7420" name="Exynos7420/android_hardware_samsung_slsi-cm_exynos7420" remote="github" revision="nx-9.0" />
-    <project path="hardware/samsung_slsi-cm/openmax" name="Exynos7420/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="nx-9.0" />
+    <project path="hardware/samsung_slsi/exynos" name="Exynos7420/android_hardware_samsung_slsi_exynos" remote="github" revision="lineage-16.0" />
+    <project path="hardware/samsung_slsi/exynos5" name="Exynos7420/android_hardware_samsung_slsi_exynos5" remote="github" revision="lineage-16.0" />
+    <project path="hardware/samsung_slsi/exynos7420" name="Exynos7420/android_hardware_samsung_slsi_exynos7420" remote="github" revision="lineage-16.0" />
+    <project path="hardware/samsung_slsi/openmax" name="Exynos7420/android_hardware_samsung_slsi_openmax" remote="github" revision="lineage-16.0" />
 	
 </manifest>
