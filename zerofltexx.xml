@@ -11,7 +11,10 @@
 
     <!--Kernel-->
     <project path="kernel/samsung/universal7420" name="Exynos7420/android_kernel_samsung_exynos7420" remote="github" revision="nx-11.0" />
-    <project path="prebuilts/linaro/linux-x86/aarch64/" name="enesuzun2002/android_prebuilts_linaro" groups="pdk,linux,x86_64" revision="6.1.1" remote="gitlabs" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
+    <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" revision="refs/tags/android-10.0.0_r41" />
+    <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" revision="refs/heads/lineage-17.1" />
 
     <!-- Vendor folders -->
     <project path="vendor/samsung" name="Exynos7420/proprietary_vendor_samsung" remote="github" revision="lineage-18.1" />
