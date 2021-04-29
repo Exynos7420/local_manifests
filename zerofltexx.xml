@@ -10,7 +10,7 @@
     <project path="device/samsung/zerofltexx" name="Exynos7420/android_device_samsung_zerofltexx" remote="github" revision="lineage-18.1" />
 
     <!--Kernel-->
-    <project path="kernel/samsung/universal7420" name="Exynos7420/android_kernel_samsung_exynos7420" remote="github" revision="nx-11.0" />
+    <project path="kernel/samsung/universal7420" name="Exynos7420/android_kernel_samsung_exynos7420" remote="github" revision="lineage-18.1" />
     <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
     <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" revision="refs/tags/android-10.0.0_r41" />
     <remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
