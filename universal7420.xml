@@ -9,7 +9,7 @@
     <project path="kernel/samsung/universal7420" name="Exynos7420/android_kernel_samsung_universal7420" remote="github" revision="lineage-18.1-multi" />
 
     <!-- Vendor folders -->
-    <project path="vendor/samsung" name="Exynos7420/proprietary_vendor_samsung" remote="github" revision="lineage-18.1" />
+    <project path="vendor/samsung" name="Exynos7420/proprietary_vendor_samsung" remote="github" revision="lineage-18.1-multi" />
 	
     <!-- Hardware -->
     <project path="hardware/samsung" name="Exynos7420/android_hardware_samsung" remote="github" revision="lineage-18.1-multi" />
